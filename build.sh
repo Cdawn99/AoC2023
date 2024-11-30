@@ -7,5 +7,5 @@ fi
 
 set -xe
 
-gcc -Wall -Werror -Wextra -pedantic -pedantic-errors -std=c17 $@
+gcc -Wall -Werror -Wextra -pedantic -pedantic-errors -std=c17 -ggdb $@
 
